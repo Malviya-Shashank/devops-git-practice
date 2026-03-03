@@ -37,6 +37,7 @@ This is a living document of the Git commands learned during the **#90DaysOfDevO
 ## 🌐 Remote Repositories (GitHub)
 - `git remote add origin <url>` — Link your local repository to a remote repository on GitHub.
 - `git remote -v` — List all remote connections and their URLs.
+- `git remote set-url origin <ssh-url>` — Change the remote URL to use SSH (e.g., `git@github.com:user/repo.git`).
 - `git push -u origin <branch>` — Push local commits to GitHub and set the upstream tracking.
 - `git pull` — Fetch and integrate changes from the remote repository into your local branch.
 
@@ -46,11 +47,13 @@ This is a living document of the Git commands learned during the **#90DaysOfDevO
 
 | Category | Command | Description |
 | :--- | :--- | :--- |
-| **Merging** | `git merge` | Joins two or more development histories together. |
-| **History** | `git rebase` | Rewrites history by moving commits to a new base. |
-| **Cleanup** | `git merge --squash` | Condenses all feature branch commits into one. |
-| **Storage** | `git stash` | Saves uncommitted work to a stack for later use. |
-| **Selective** | `git cherry-pick` | Picks a specific commit from one branch to another. |
+| **Setup** | `git init` | Initializes a new local Git repository. |
+| **Status** | `git status` | Shows the state of the working directory and staging area. |
+| **Staging** | `git add <file>` | Adds changes to the staging area. |
+| **Undo** | `git restore --staged <file>` | Removes a file from the staging area. |
+| **Commit** | `git commit -m "msg"` | Saves staged changes as a new commit. |
+| **History** | `git log` | Displays the commit history. |
+| **Remote** | `git remote set-url origin` | Updates the remote repository URL (SSH/HTTPS). |
 
 ---
 *Last Updated: 2026-03-03*
