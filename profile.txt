@@ -1,0 +1,5 @@
+Profile Page v1
+Fixed typo
+Formatting update
+Profile validation logic
+Minor UI fix
