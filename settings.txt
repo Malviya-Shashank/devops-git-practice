@@ -1,1 +1,2 @@
 Settings Page v1
+Added toggle option
