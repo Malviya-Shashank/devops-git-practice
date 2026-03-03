@@ -1,2 +1,3 @@
 Settings Page v1
 Added toggle option
+Fixed bug in settings
